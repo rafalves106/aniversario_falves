@@ -1,5 +1,5 @@
 .hero {
-  background-image: url("../fundo.a62a0635.png");
+  background-image: url("../fundo-festa.cc774271.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 64px;
@@ -103,7 +103,12 @@
 
 .button--primary {
   color: #fff;
-  background-color: #4f2ac3;
+  background-color: #2a4cc3;
+}
+
+.button--success {
+  color: #fff;
+  background-color: #159a2a;
 }
 
 @media (width <= 640px) {
@@ -124,20 +129,20 @@
   padding: 80px 0;
 }
 
-.event--frontend {
-  background-image: linear-gradient(#1b6ca7, #442bdb);
+.event--openbar {
+  background-image: linear-gradient(#1e1e1e, #000);
 }
 
-.event--ui-ux {
-  background-image: linear-gradient(#442bdb, #89223b);
+.event--dj {
+  background-image: linear-gradient(#000, #1e1e1e);
 }
 
-.event--data-science {
-  background-image: linear-gradient(#89223b, #9c791d);
+.event--atracoes {
+  background-image: linear-gradient(#1e1e1e, #b1871b);
 }
 
-.event--backend {
-  background-image: linear-gradient(#9c791d, #89223b);
+.event--baile {
+  background-image: linear-gradient(#b1871b, #1e1e1e);
 }
 
 .event--image-left .container {

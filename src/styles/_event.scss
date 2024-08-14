@@ -3,20 +3,20 @@
 .event {
     padding: 80px 0;
 
-    &--frontend {
-        background-image: linear-gradient(variables.$blue1, variables.$blue2);
+    &--openbar {
+        background-image: linear-gradient(variables.$grey, variables.$black);
     }
 
-    &--ui-ux {
-        background-image: linear-gradient(variables.$blue2, variables.$pink);
+    &--dj {
+        background-image: linear-gradient(variables.$black, variables.$grey);
     }
 
-    &--data-science {
-        background-image: linear-gradient(variables.$pink, variables.$yellow);
+    &--atracoes {
+        background-image: linear-gradient(variables.$grey, variables.$gold);
     }
 
-    &--backend {
-        background-image: linear-gradient(variables.$yellow, variables.$pink);
+    &--baile {
+        background-image: linear-gradient(variables.$gold, variables.$grey);
     }
 
     &--image-left {
